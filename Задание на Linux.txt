@@ -1,0 +1,9 @@
+1. sudo su; mkdir "ToysForSchoolchildren";mkdir "ToysForPreschoolChildren"
+2. cd ToysForSchoolchildren; nano Rorbots; nano Constructor; nano TableGames;
+cd ToysForPreschoolChildren; nano SoftToys; nano Dolls; nano Cars;
+3. mkdir ToysName; mv ToysForSchoolchildren ToysName;mv ToysForPreschoolChildren ToysName;
+4. mv ToysName Toys
+5. cd Toys; ls -al 
+6. snap install msds; snap remove msds
+7. exit; cd ~; crontab -e; nano; 
+  3 0 * * * /usr/local/cbin/backup.py >> /var/log/backup 2>&1
