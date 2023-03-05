@@ -42,4 +42,8 @@ public class Toy {
         this.quantity = quantity;
     }
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
 }
