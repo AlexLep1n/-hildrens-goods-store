@@ -88,7 +88,6 @@ public class Model {
             prizeToys.remove(idScanner.nextInt() - 1);
             return prizeToy;
         }
-        // prizeToys.remove(prizeToys.get(idScanner.nextInt() - 1));
     }
 
     public void showToys() {

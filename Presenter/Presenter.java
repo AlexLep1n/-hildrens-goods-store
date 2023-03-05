@@ -1,6 +1,5 @@
 package Presenter;
 
-import java.util.List;
 import java.util.Scanner;
 
 import Model.Model;
